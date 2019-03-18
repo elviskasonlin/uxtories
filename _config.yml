@@ -1,0 +1,30 @@
+# Site Configuration
+
+title: Engineering Design Project
+email: elviskasonlin.17@ichat.sp.edu.sg
+description: >- 
+  This site details the entire journey undertaken by the team as part of the Engineering Design module to create a sensor platform.
+baseurl: "/speaalpha18" # the subpath of your site, e.g. /blog
+url: "https://elviskasonlin.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+github_repo: "speaalpha18" 
+github_username: "elviskasonlin" 
+
+# Build settings
+markdown: kramdown
+theme: jekyll-swiss
+theme_color: white
+remote_theme: broccolini/swiss
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
